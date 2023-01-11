@@ -1,0 +1,50 @@
+name: movies_app
+description: simple movies app that apply TDD CleanArchticture
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  cupertino_icons: ^1.0.2
+  equatable:
+  dio:
+  dartz:
+  flutter_bloc:
+  bloc:
+  get_it:
+  animate_do:
+  cached_network_image:
+  carousel_slider:
+  google_fonts:
+  shimmer:
+  sliver_tools:
+  easy_localization:
+  flutter_phoenix: ^1.1.0
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+
+
+  # fonts:
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700

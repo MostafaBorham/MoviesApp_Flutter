@@ -1,0 +1,12 @@
+{
+  "appName" : "Movies App",
+  "popular" : "Popular",
+  "topRated" : "Top Rated",
+  "genresColon" : "Genres:",
+  "moreLikeThis" : "More like this",
+  "nowPlaying" : "Now Playing",
+  "seeMore" : "See More",
+  "languageBtn" : "العربية",
+  "logout" : "Logout",
+  "changeMode" : "Change Mode"
+}
